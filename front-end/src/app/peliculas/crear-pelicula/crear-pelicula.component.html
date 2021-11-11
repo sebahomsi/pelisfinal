@@ -1,10 +1,16 @@
-<h2>Crear Película</h2>
+<mat-card>
+    <mat-card-title>Crear Película</mat-card-title>
+    <mat-card-content>
+        <app-formulario-pelicula 
+        *ngIf="cinesNoSeleccionados"
+        [errores]="errores"
+        [generosNoSeleccionados]="generosNoSeleccionados"
+        [cinesNoSeleccionados]="cinesNoSeleccionados"
+        (OnSubmit)="guardarCambios($event)"></app-formulario-pelicula>
+        
+        <mat-spinner *ngIf="!cinesNoSeleccionados"></mat-spinner>
+    
+    </mat-card-content>
+  </mat-card>
 
-<app-formulario-pelicula 
-*ngIf="cinesNoSeleccionados"
-[errores]="errores"
-[generosNoSeleccionados]="generosNoSeleccionados"
-[cinesNoSeleccionados]="cinesNoSeleccionados"
-(OnSubmit)="guardarCambios($event)"></app-formulario-pelicula>
 
-<mat-spinner *ngIf="!cinesNoSeleccionados"></mat-spinner>

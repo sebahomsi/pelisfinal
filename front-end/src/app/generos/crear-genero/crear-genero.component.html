@@ -1,5 +1,9 @@
-<h2>Crear Género</h2>
-
-<app-formulario-genero 
-[errores]="errores"
-(onSubmit)="guardarCambios($event)"></app-formulario-genero>
+<mat-card>
+    <mat-card-title>Crear Género</mat-card-title>
+    <mat-card-content>
+        <app-formulario-genero 
+        [errores]="errores"
+        (onSubmit)="guardarCambios($event)"></app-formulario-genero>
+    
+    </mat-card-content>
+</mat-card>

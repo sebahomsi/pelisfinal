@@ -1,5 +1,9 @@
-<h2>Crear Actor</h2>
-
-<app-formulario-actores 
-[errores]="errores"
-(OnSubmit)="guardarCambios($event)"></app-formulario-actores>
+<mat-card>
+    <mat-card-title>Crear Actor</mat-card-title>
+    <mat-card-content>
+        <app-formulario-actores 
+        [errores]="errores"
+        (OnSubmit)="guardarCambios($event)"></app-formulario-actores>
+    
+    </mat-card-content>
+  </mat-card>

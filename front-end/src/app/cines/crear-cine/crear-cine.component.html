@@ -1,5 +1,9 @@
-<h2>Crear Cine</h2>
-
-<app-formulario-cine 
-[errores]="errores"
-(guardarCambios)="guardarCambios($event)"></app-formulario-cine>
+<mat-card>
+    <mat-card-title>Crear Cine</mat-card-title>
+    <mat-card-content>
+        <app-formulario-cine 
+        [errores]="errores"
+        (guardarCambios)="guardarCambios($event)"></app-formulario-cine>
+    
+    </mat-card-content>
+  </mat-card>
