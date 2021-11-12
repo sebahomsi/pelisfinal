@@ -1,0 +1,14 @@
+.cartelera {
+    display: flex;
+    flex-direction: row;
+}
+
+.cartelera .cartelera__en-cines {
+    flex-basis: 60%;
+    flex-shrink: 0;
+}
+.cartelera .cartelera__futuros-estrenos {
+    flex-basis: 40%;
+    flex-shrink: 0;
+
+}

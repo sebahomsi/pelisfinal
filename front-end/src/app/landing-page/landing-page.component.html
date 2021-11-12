@@ -1,12 +1,22 @@
-<h2>En cines</h2>
+<div class="text-center">
+  <img src="../../assets/atlas.jpg"  alt="">
 
-<app-listado-peliculas 
-(borrado)="borrado()"
-[peliculas]="peliculasEnCines"></app-listado-peliculas>
+</div>
 
-<h2>Futuros Estrenos</h2>
+<div class="cartelera">
+  <div class="cartelera__en-cines">
+    <h2 class="text-center p-2">En cines</h2>
+    <app-listado-peliculas 
+    (borrado)="borrado()"
+    [peliculas]="peliculasEnCines"></app-listado-peliculas>
+  </div>
+  <div class="cartelera__futuros-estrenos">
+    <h2 class="text-center p-2">Futuros Estrenos</h2>
+    
+    <app-listado-peliculas 
+    (borrado)="borrado()"
+      [peliculas]="peliculasProximosEstrenos"
+    ></app-listado-peliculas>
+  </div>
+</div>
 
-<app-listado-peliculas
-(borrado)="borrado()"
-  [peliculas]="peliculasProximosEstrenos"
-></app-listado-peliculas>

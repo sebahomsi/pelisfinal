@@ -9,13 +9,21 @@
     margin-right: 2%;
     margin-bottom: 10px;
     text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-bottom: 5px;
+    transition: .3s;
 }
 
+.pelicula-contenedor:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 15px;
+}
+    
 p{
     max-width: 225px;
     height: 44px;
     font-size: 15px;
     font-weight: bold;
+    background: #3f51b5;
 }
 
 img {
@@ -29,4 +37,5 @@ button {
 
 a {
     text-decoration: none;
+    color: white;
 }

@@ -3,7 +3,7 @@
     <div class="peliculas-contenedor">
     <div
       *ngFor="let pelicula of peliculas; let index = index"
-      class="pelicula-contenedor"
+      class="pelicula-contenedor text-center"
     >
       <a [routerLink]="'/pelicula/' + pelicula.id">
         <img [src]="pelicula.poster" alt="Poster" />
