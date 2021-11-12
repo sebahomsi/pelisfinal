@@ -23,7 +23,7 @@ p{
     height: 44px;
     font-size: 15px;
     font-weight: bold;
-    background: #3f51b5;
+    /* background: #3f51b5; */
 }
 
 img {
@@ -37,5 +37,5 @@ button {
 
 a {
     text-decoration: none;
-    color: white;
+    /* color: white; */
 }
