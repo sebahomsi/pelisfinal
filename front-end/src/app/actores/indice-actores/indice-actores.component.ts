@@ -14,7 +14,7 @@ export class IndiceActoresComponent implements OnInit {
   constructor(private actoresService: ActoresService) { }
 
   actores: actorDTO[];
-  columnasAMostrar = ['id', 'nombre', 'acciones'];
+  columnasAMostrar = [ 'nombre', 'acciones'];
   cantidadTotalRegistros;
   paginaActual = 1;
   cantidadRegistrosAMostrar = 10;

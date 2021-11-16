@@ -4,11 +4,14 @@
 }
 
 .cartelera .cartelera__en-cines {
-    flex-basis: 60%;
+    flex-basis: 50%;
     flex-shrink: 0;
+    justify-content: space-between;
 }
 .cartelera .cartelera__futuros-estrenos {
-    flex-basis: 40%;
+    flex-basis: 50%;
     flex-shrink: 0;
+    justify-content: space-between;
+    
 
 }

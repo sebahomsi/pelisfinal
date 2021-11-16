@@ -82,7 +82,7 @@ namespace PeliculasAPI
 
             if (userManager.Users.All(u => u.UserName != user.UserName))
             {
-                await userManager.CreateAsync(user, "admin123");
+                await userManager.CreateAsync(user, "123456");
             }
         }
     }

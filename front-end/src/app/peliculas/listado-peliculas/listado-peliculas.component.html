@@ -9,7 +9,7 @@
         <img [src]="pelicula.poster" alt="Poster" />
       </a>
       <p>
-        <a [routerLink]="'/pelicula/' + pelicula.id">{{pelicula.titulo}}</a>
+        <a class="title" [routerLink]="'/pelicula/' + pelicula.id">{{pelicula.titulo}}</a>
       </p>
       <app-autorizado [rol]="'admin'">
         <ng-container autorizado>

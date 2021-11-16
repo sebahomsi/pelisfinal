@@ -7,6 +7,7 @@
 
 .pelicula-contenedor {
     margin-right: 2%;
+    max-width: 205px;
     margin-bottom: 10px;
     text-align: center;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -27,15 +28,22 @@ p{
 }
 
 img {
-    width: 225px;
-    height: 300px;
+    width: 205px;
+    height: 280px;
 }
 
 button {
-    margin-left: 1em;
+    margin: 1em;
+    margin-top: 0;
 }
 
 a {
     text-decoration: none;
     /* color: white; */
+}
+
+.title {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
 }

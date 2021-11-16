@@ -39,7 +39,7 @@ export class MapaComponent implements OnInit {
   options = {
     layers: [
       tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 18,
+        maxZoom: 12,
         attribution: '...',
       }),
     ],
